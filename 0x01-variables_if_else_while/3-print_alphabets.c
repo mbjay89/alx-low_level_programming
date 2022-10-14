@@ -9,14 +9,12 @@
  */
 int main(void)
 {
-	int i;
-	char stringSmall[26] = {"abcdefghijklmnopqrstuvwxyz"};
-	char stringCapital[26] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+	char string;
 
-	for (i = 0; i < 26; i++)
-	putchar(stringSmall[i]);
-	for (i = 0; i < 26; i++)
-	putchar(stringCapital[i]);
+	for (string = 'a'; string <= 'z'; string++)
+	putchar(string);
+	for (string = 'A'; string <= 'Z'; string++)
+	putchar(string);
 	putchar('\n');
 	return (0);
 }
