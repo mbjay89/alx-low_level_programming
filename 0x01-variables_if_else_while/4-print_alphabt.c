@@ -13,7 +13,7 @@ int main(void)
 
 	for (string = 'a'; string <= 'z'; string++)
 		{
-			if(string!='q' && string!='e')
+			if (string != 'q' && string != 'e')
 			putchar(string);
 		}
 	putchar('\n');
