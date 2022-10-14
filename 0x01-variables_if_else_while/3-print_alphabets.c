@@ -4,7 +4,7 @@
  *  *
  *  *Return: Always 0 (Success)
  *
- *  * *2. Alphabets using putchar()
+ *  * *3. Alphabets small letters & Capital letters using putchar()
  *  *
  */
 int main(void)

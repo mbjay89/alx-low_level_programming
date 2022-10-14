@@ -4,16 +4,15 @@
  *  *
  *  *Return: Always 0 (Success)
  *
- *  * *2. Alphabets using putchar()
+ *  * *2. Alphabets small letters using putchar()
  *  *
  */
 int main(void)
 {
-	int i;
-	char string[26] = {"abcdefghijklmnopqrstuvwxyz"};
+	char string;
 
-	for (i = 0; i < 26; i++)
-	putchar(string[i]);
+	for (string = 'a'; string <= 'z'; string++)
+	putchar(string);
 	putchar('\n');
 	return (0);
 }
