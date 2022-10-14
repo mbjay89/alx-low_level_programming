@@ -11,6 +11,7 @@ int main(void)
 {
 	int i;
 	char string[26] = {"abcdefghijklmnopqrstuvwxyz"};
+
 	for (i = 0; i < 26; i++)
 	putchar(string[i]);
 	putchar('\n');
