@@ -10,11 +10,10 @@
 int main(void)
 {
 	int i;
-	char string[58]= {"and that piece of art is useful\" - Dora Korpar, 2015-10-19
-		"};
+	char arr[58]= {"and that piece of art is useful\" - Dora Korpar, 2015-10-19"};
 
 	for (i = 0; i < 58; i++)
-	putchar(string[i]);
+	putchar(arr[i]);
 	putchar('\n');
 	return (1);
 }
