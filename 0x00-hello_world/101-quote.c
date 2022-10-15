@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i;
-	char arr[58]= {"and that piece of art is useful\" - Dora Korpar, 2015-10-19"};
+	char arr[58] = {"and that piece of art is useful\" - Dora Korpar, 2015-10-19"};
 
 	for (i = 0; i < 58; i++)
 	putchar(arr[i]);
