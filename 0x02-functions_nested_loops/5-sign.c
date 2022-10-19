@@ -2,7 +2,7 @@
 
 /**
  *  * print_sign - prints the sign of a number.
- *  *@c: takes a character as an input
+ *  *@n: takes a character as an input
  *  *  *
  *  * Return: 1 if (+), 0 if 0 and -1 if (-)
 */
