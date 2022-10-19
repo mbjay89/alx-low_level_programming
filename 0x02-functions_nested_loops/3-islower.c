@@ -15,7 +15,7 @@ int _islower(int c)
 	for (i = 'a'; i <= 'z'; i++)
 	{
 	if (c == i)
-		x=1;
+		x = 1;
 	}
-	return(x);
+	return (x);
 }
