@@ -9,13 +9,13 @@
 */
 int main(void)
 {
-	long long i = 3, n = 612852475143;
+	unsigned long int i = 3, n = 612852475143;
 
 	for (; i < n; i += 2)
 	{
 	while (n % i == 0 && n != i)
 		n /= i;
 	}
-	printf("%lld\n", n);
+	printf("%lu\n", n);
 	return (0);
 }
