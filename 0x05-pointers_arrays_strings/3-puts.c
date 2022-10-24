@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  * _puts - a function that prints a string, followed by a new line, to stdout.
+ *  * _puts - function that prints a string, followed by a new line to stdout
  *  *@str : input pointer to a string
  *  * Return: the length of string
 */
