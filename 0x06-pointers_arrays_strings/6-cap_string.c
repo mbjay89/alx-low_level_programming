@@ -18,7 +18,7 @@ char *cap_string(char *s)
 	}
 
 	p1 = p2;
-	for (i = 0; i < l && *s != '\0'; i++)
+	for (i = 0; i <= l && *s != '\0'; i++)
 	{
 		if (i == 0 && (s[i] >= 'a' && s[i] <= 'z' ))
 			s[i] -= 32;
