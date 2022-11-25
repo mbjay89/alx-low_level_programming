@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
-  * list_len - number of elemnts
-  * @h: pointer to struct
-  * Return: length
+  * print_list - prints all elemnts of a list_t  list
+  * @h: singly linked list
+  * Return: number of elemnts in the list
   */
 
 size_t print_list(const list_t *h)
