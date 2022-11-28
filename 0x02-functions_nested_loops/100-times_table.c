@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- *  * print_times_table -   prints the n times table, starting with 0
- *  * Desc: If n is greater than 15 or less than 0 the function should not print anything
- *  * Return: N/A
- *  *  *
-*/
+ * print_times_table -   prints the n times table, starting with 0
+ * if n is greater than 15 or less than 0 it should not print anything
+ * @n: the number of times table
+ * Return: N/A
+ *
+ */
 void print_times_table(int n)
 {
 
